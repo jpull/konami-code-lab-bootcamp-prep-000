@@ -11,7 +11,7 @@ function init() {
   // This is the function that would be invoked by the event listener.
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
-
+alert("test!");
     if (key === alphabet[index]) {
       index++;
 
